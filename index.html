@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calclator</title>
+</head>
+<body>
+    <div>
+        <form>
+            <label>
+                How Much Was Your Bill?<br>
+                Rs<input type="text" id=" BillAmount">
+
+
+            </label> <br>
+            <label>
+                How was your service? <br>
+                <select id="serviceQuality"></select>
+                <select>
+                    <option value="0">choose an option</option>
+                    <option value="0.3"> Outstanding</option>
+                    <option value="0.3"> Good</option>
+                    <option value = "0.1"> Bad</option>
+                </select>
+            </label> <br>
+<label><br>
+    How many People are sharing the Bill?<br>
+    <input type=" number" id="totalpeopele"> People 
+</label> <br> <br>
+
+<button type ="button" id ="" onclick ="calculateTip"> Calculate</button>
+
+
+        </form><br>
+        <div>
+            <span> Rs</span><span> 0.00</span>
+            <small>Each<small>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+</body>
+</html>
